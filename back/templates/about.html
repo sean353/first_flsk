@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    {{data}}
+    <img src="https://picsum.photos/200/300?grayscale">
+
+    <ul>
+        <li style="color: cadetblue;" >{% for item in context.ar[1]%}{{item}}{% endfor %} - {{context.my_email2}}</li>
+        </li>
+
+
+        <li style="color: burlywood;">{% for item in context.ar[0]%}{{item}}{% endfor %} - {{context.myemail}}</li>
+
+           
+
+
+
+        <li style="color: rgb(94, 15, 133);">{% for item in context.ar[2]%}{{item}}{% endfor %} - {{context.my_email3}}
+        </li>
+
+
+
+
+
+
+
+
+
+    </ul>
+
+</body>
+
+</html>
